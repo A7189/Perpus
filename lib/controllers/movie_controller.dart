@@ -1,0 +1,58 @@
+import 'package:perpus/models/perpus.dart';
+
+class MovieController {
+  final List<Perpus> movies = [
+    Perpus(
+      id: 1,
+      title: "Mcqueen2",
+      voteAverage: 7,
+      posterPath: 'assets/Mcqueen.jpg',
+      writer: 'Jhon', 
+      synopsis: 'Berkisah tentang Mcqeen, pembalap yang dicuri oleh ilmuan gila minyak saat balapan di inggris yang melibatkan banyak agen rahasia yang berusaha menyelamatkan nya akan kah dia selamat?', 
+      Penerbit: 'Walt Disney Studios.', 
+      Tahun: '2021', 
+      Pinjam: 'Rp50.000',
+      Beli: 'Rp100.000', 
+      Stock: '10', 
+    ),
+    Perpus(
+      id: 2,
+      title: "Sijuki",
+      voteAverage: 8,
+      posterPath: 'assets/Sijuki.jpeg',
+      writer: 'Faza Meonk', 
+      synopsis: 'Menceritakan kisah juki disaat ia masih hidup di kos kos an saat sedang pendidikan di sekolah tinggi', 
+      Penerbit: 'Falcon Publishing', 
+      Tahun: '2020', 
+      Pinjam: 'Rp35.000',
+      Beli: 'Rp75.000', 
+      Stock: '20', 
+    ),
+    Perpus(
+      id: 3,
+      title: "Power Puff Girls",
+      voteAverage: 8,
+      posterPath: 'assets/PowerPuff.jpeg',
+      writer: 'Craig Mcracker',
+      synopsis: 'Bercerita tentang seorang ayah memiliki 3 anak yang setiap anak memiliki kekuatan masing-masing.', 
+      Penerbit: 'Cartoon Network', 
+      Tahun: '2014', 
+      Pinjam: 'Rp40.000',
+      Beli: 'Rp77.000', 
+      Stock: '30', 
+    ),
+    Perpus(
+      id: 4,
+      title: "100 Kebiasaan Nabi",
+      voteAverage: 6,
+      posterPath: 'assets/KebiasaanNabi.jpeg',
+      writer: 'Wawan Kungkang',
+      synopsis: 'Mengisahkan tentang kebiasaan baik yang dilaksanakan oleh nabi semasa ia hidup.', 
+      Penerbit: 'Gramedia', 
+      Tahun: '2015', 
+      Pinjam: 'Rp30.000',
+      Beli: 'Rp72.000', 
+      Stock: '40', 
+    ),
+  ];
+}
